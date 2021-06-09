@@ -6,3 +6,22 @@ body {
   color: $color-grey;
   padding: 3rem;
 }
+
+.text-box {
+  &__primary {
+    display: block;
+    letter-spacing: 3.5rem;
+    font-size: 5.5rem;
+    font-weight: 400;
+    animation: moveInRight 1s ease-out;
+  }
+
+  &__secondary {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1.63rem;
+    animation: moveInLeft 1s ease-out;
+    margin-bottom: 10rem;
+  }
+}
