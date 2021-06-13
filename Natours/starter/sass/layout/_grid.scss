@@ -1,13 +1,11 @@
 .row {
   max-width: 114rem;
-  background-color: $color-grid-row;
   margin: 0 auto;
   margin-bottom: $gutter-vertically;
 
   @include clearfix;
 
   [class^="col-"] {
-    background-color: $color-grid-col;
     float: left;
 
     &:not(:last-child) {
